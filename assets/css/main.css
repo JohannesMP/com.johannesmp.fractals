@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Myriad Pro", "Myriad Pro Cond", "Myriad Pro Light";
+	font-style: normal;
+	font-weight: normal;
+	-moz-user-select: none;
+ 	-khtml-user-select: none;
+	user-select: none;
+}
+
+a{
+	text-decoration: none
+}
+
+a:link{	color: #c9c9c9;}
+a:visited{	color: #c9c9c9;}
+a:active{	color: white;}
+
+div{
+	border-style: solid;
+	border-color: green;
+	border-width: 0px;
+}
+
+h1{
+	text-align:center;
+	
+	color: #FFFFFF;
+}
+
+body{
+
+	background-color: black;
+}
+
+.nodisplay{
+	display: none;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.image_small{
+	width: 747px;
+	height: 567px;
+	background-color: black;
+	margin: 60px 60px 70px;
+	border-style: solid;
+	border-color: #414141;
+	border-width: 0px;
+}
+
+.image_small_h{
+	width: 567px;
+	height: 747px;
+	background-color: black;
+	margin: 60px 160px 70px;
+	border-style: solid;
+	border-color: #414141;
+	border-width: 0px;
+}
+
+.thumb{
+	width: 98px;
+	height: 98px;
+	margin: 0px;
+	float:left;
+	text-align: left;
+	border-style: solid;
+	border-color: black;
+	border-width: 0px;
+	cursor: default;
+	margin: 1px;
+}
+
+.thumb.filled{
+	width: 96px;
+	height: 96px;
+	padding: 1px;
+	margin: 1px;
+	border-color: white;
+	border-width: 0px;
+	border-style: solid;
+	cursor: pointer;
+	
+}
+
+.thumb p{
+	margin: 10px;
+	opacity: .7;
+	font-size: 20px;
+	text-shadow: #000 1px 1px 2px;;
+}
+
+.nonlinked{
+	color: #515151;
+}
+
+#wrapper{
+	margin: auto;
+	width: 874px;
+}
+
+#header{
+	background-image: url('../site/title.png');
+	width: 874px;
+	height: 154px;
+}
+
+#calendar{
+	padding: 1px;
+	background-image: url('../site/calendar.png');
+	width: 600px;
+	height: 400px;
+	margin: 50px 137px 110px;
+}
+
+.divider{
+	background-image: url('../site/divider.png');
+	height: 50px;
+	width: 600px;
+	margin-top: 20px;
+}
+
+#spacer{
+	width: 1px;
+	height: 100px;
+}
+
+#footer{
+	margin: 50px 0px 0px;
+	height: 100px;
+	text-align:center;
+	color: white;
+}
+
+#copyright{
+	background-image: url('../site/copyright.png');
+	height: 38px;
+	width: 396px;
+	margin: 10px auto;
+}
+
+#images {
+  max-width: 1200px;
+  margin:auto;
+}
+
+.responsive {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display:block;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.responsive.tall
+{
+  padding-left: 12%;
+  padding-right: 12%;
+}
